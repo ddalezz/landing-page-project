@@ -15,11 +15,33 @@ ul {
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 0px 200px;
+    padding: 0px 450px;
+}
+
+
+
+.logo {
+    font-weight: bolder;
 }
 
 .header-links {
     display: flex;
     gap: 30px;
-    font-weight: 700;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1F2937;
+    color: white;
+    padding: 100px 450px;
+}
+
+.intro-image {
+    height: 350px;
+    width: 500px;
+    
 }
