@@ -19,11 +19,6 @@ ul {
 }
 
 
-
-.logo {
-    font-weight: bolder;
-}
-
 .header-links {
     display: flex;
     gap: 30px;
@@ -40,8 +35,51 @@ ul {
     padding: 100px 450px;
 }
 
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
 .intro-image {
     height: 350px;
     width: 500px;
-    
+    border-radius: 25px;
+    border: 3px solid white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 450px;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.berry {
+    height: 150px;
+    width: auto;
+    border: 3px solid rgb(66, 66, 226);
+    border-radius: 25px;
+}
+
+a {
+    cursor: pointer;
 }
